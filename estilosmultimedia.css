@@ -1,0 +1,23 @@
+#video{
+    float: left;
+    padding: auto;
+}
+h2{
+    text-align: center;
+    text-decoration: underline;
+    color: white;
+}
+p{
+    color: white;
+}
+body{
+    background-image: url(./Imagenes/fondo.jpg);
+    background-size: 1350px 600px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+img{
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}

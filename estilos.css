@@ -1,0 +1,32 @@
+ul,
+li{
+  display: inline-block;
+  text-align: center;
+  text-decoration: underline;
+  padding: 15px;
+  color: black;
+}
+#logo{
+    float: left;
+    padding: auto;
+}
+#img1{
+    float: left;
+    padding: auto;
+}
+#img2{
+    float: right;
+    padding: auto;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+}
+body {
+    background-image: url(./Imagenes/fondo\ principal.jpg);
+    background-size: 1350px 600px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}

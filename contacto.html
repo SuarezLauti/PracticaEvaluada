@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ANIMALES SALVAJES/CONTACTO</title>
+    <link rel="stylesheet" href="estiloscontacto.css" />
+  </head>
+  <body>
+    <header>
+        <legend>Formulario de contacto</legend>
+        <ol>
+            <li><label>NOMBRE: </label><input type="text" name="nombre" size="25" class="n" required /></li>
+            <li><label>DNI: </label><input type="number" name="dni" size="25" class="dni" required /></li>
+            <li><label>EMAIL: </label><input type="text" name="email" size="25" class="n" required /></li>
+            <li><label>EDAD: </label><input type="number" name="edad" size="25" class="edad" /></li>
+            <li><label>PAIS: </label><select name="pais" class="n">
+                <option value="" selected="selected" hidden="hidden"></option>
+                <option value="1">Argentina</option>
+                <option value="2">Colombia</option>
+                <option value="3">Chile</option>
+                <option value="4">Brasil</option>
+              </select></li>
+            <li><label>IDIOMAS: </label>
+                <input type="checkbox" name="idioma" value="español" />
+                Español
+                <input type="checkbox" name="idioma" value="italiano" />
+                Italiano
+                <input type="checkbox" name="idioma" value="ingles" />
+                Ingles
+        </ul>
+            <p textalign="center"><input type="submit" name="submit" class="btn" value="Enviar" /></p>
+    </header>
+  </body>
+</html>

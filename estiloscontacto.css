@@ -1,0 +1,50 @@
+legend{
+    font-weight:bold;
+    font-size:50px;
+    color: white;
+    text-shadow: 1px 1px 1px white;
+}
+ol{
+    list-style:none;
+}
+ol li{
+    text-shadow: 1px 1px 1px white;
+    text-align: center;
+    padding-bottom:20px;
+    font-size:35px;
+    color: white;
+}
+.n{
+    width: 300px;
+    height: 20px;
+}
+.edad{
+    width: 50px;
+    height: 20px;
+}
+.dni{
+    width: 100px;
+    height: 20px;
+
+}
+.btn{
+    font-size: 40px;
+    font-weight: bold;
+    background-color: rgb(5, 49, 5);
+    color: white;
+    width: 200px;
+    height: 50px;
+}
+input[type=checkbox] {
+    display: inline-block;
+}
+body{
+    background-image: url(./Imagenes/fondo.jpg);
+    background-size: 1350px 600px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+header{
+    align-items: center;
+    text-align: center;
+}
